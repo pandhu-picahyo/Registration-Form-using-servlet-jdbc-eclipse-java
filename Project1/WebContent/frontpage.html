@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment Project 1</title>
+<link rel="stylesheet" href="asset/style/style.css">
+<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+			* {box-sizing: border-box;}
+	
+	{
+  	font-family: Arial, Helvetica, sans-serif;
+  	width: 100%;
+  	padding: 15px;
+  	margin: 5px 0 22px 0;
+  	display: inline-block;
+  	border: none;
+	}
+
+	.header {
+  	padding: 60px;
+  	text-align: center;
+  	background: linear-gradient(125deg, #90EE90, #C3B1E1, #23d5ab);
+  	color: blue;
+  	font-size: 30px;
+	}
+
+	.section{
+	padding: 250px;
+    text-align: center;
+	background: linear-gradient(#454545, #E6E6FA, #C3B1E1, #E0B0FF, #CF9FFF, #FFFFE0);
+	}
+	
+	.btn-group a {
+  	background-color: #cb4bf2; 
+  	border: 1px solid blue; 
+  	color: black; 
+  	padding: 20px 48px; 
+  	cursor: pointer; 
+  	float: left; 
+  	width: 50%;
+	}
+
+	.btn-group a:not(:last-child) {
+  	border-right: none; /* Prevent double borders */
+	}
+
+/* Clear floats (clearfix hack) */
+	.btn-group:after {
+  	content: "";
+  	clear: both;
+  	display: table;
+	}
+
+/* Add a background color on hover */
+	.btn-group a:hover {
+  	background-color: yellow;
+	}
+
+	.navbar {
+  	background-color: #333;
+  	overflow: hidden;
+	}
+
+/* Style the links inside the navigation bar */
+	.navbar a {
+  	float: left; 
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+	}
+
+/* Change the color of links on hover */
+	.navbar a:hover {
+  	background-color: #ddd;
+  	color: black;
+	}
+
+/* Add a color to the active/current link */
+	.navbar a.active {
+  	background-color: #04AA6D;
+  	color: white;
+	}
+
+ 	input[type=text], select {
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+	}
+
+/* Style the submit button */
+	input[type=submit] {
+  	width: 10%;
+  	background-color: #1abc9c; 
+  	color: black;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+	}
+
+/* Add a background color to the submit button on mouse-over */
+	input[type=submit]:hover {
+  	background-color: #45a049;
+	}
+
+	.footer{
+  	padding: 5px;
+  	text-align: center;
+  	background: linear-gradient(#E6E6FA, #C3B1E1, #ADD8E6);
+  	color: black;
+  	font-size: 10px;
+  	}
+  	
+</style>
+</head>
+<body>
+	<section>
+		<div class="header">
+			<h1>Project: First Assignment</h1>
+		</div>
+	</section>
+	<section>
+		<div class="navbar">
+			<a class="active" href="#home">Home</a>
+			<a href="#pandhu">News</a>
+			<a href="#picahyo">Contact</a>
+  			<a href="#pandhu">Galery</a>
+  			<a href="#picahyo">Feature</a>
+  			<a href="#pandhu">Resource</a>
+  			<a href="#pandhu">Picahyo</a>
+  			<a href="#picahyo">About</a>
+  			<a href="#pandhu">Company</a>
+  			<a href="#picahyo">Help</a> 
+		</div>
+	</section>
+	<section>
+		<div class="section">
+		<div class="btn-group">
+			<a href="newuser.html">Add New Records</a>
+			<a href="ViewData">View All Records</a>
+		</div>
+		</div>
+	</section>
+	<section>
+		<div class="footer">
+			<h1>Special thanks to all of my new friends at ATH</h1>
+		</div>
+	</section>
+</body>
+</html>
